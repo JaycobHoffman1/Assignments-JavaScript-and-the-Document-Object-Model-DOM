@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#container {
+    margin: 50px;
+}
+#box1, #box2, #box3, #box4, #box5, #box6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover {
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.purple {
+    background-color: purple;
+}
